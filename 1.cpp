@@ -10,5 +10,5 @@ int main(void){
     cin>>M1>>M2; /*asked user to input the formula parameters*/
     const float K=6.67*pow(10,-8);
     float F=K*((M1*M2)/pow(d,2)); /*the newton force formula*/
-    cout<<"the force between the 2 bodies "<<F<<'\t'<<"dyn"<<endl;/* output of the force*/
+    cout<<"the force between the 2 bodies "<<F<<'\t'<<endl;/* output of the force*/
 }

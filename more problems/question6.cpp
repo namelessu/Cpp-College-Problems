@@ -7,6 +7,7 @@
 // The program continues to prompt for new pairs of numbers until the first number is less than or equal to the second number.
 #include <iostream>
 #include <cmath>
+#include <ostream>
 using namespace std;
 int main(void){
     int firstNum=1,secondNum=0,i=0,even_sum=0,sum1=0,sum2=0;
@@ -27,7 +28,7 @@ int main(void){
     else {
         cout<<"odd number"<<" "<<secondNum<<endl;
         secondNum=pow(secondNum,2);
-        cout<<"odd number square"<<secondNum;
+        cout<<"odd number square"<<secondNum<<endl;
     }
     cout<<"even sum"<<" "<<even_sum<<endl;
     if(firstNum<=10){

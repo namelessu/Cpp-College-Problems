@@ -1,6 +1,5 @@
 /*a grading program based on score of the students*/
-#include <iostream>
-#include <cmath>
+#include<iostream>
 using namespace std;
 int main()
 { 
@@ -17,14 +16,14 @@ int main()
     else if(score>=75 && score<85){
         cout<<"the grade is very good "<<endl;
     }
-        else if(score>=65 && score<75){
-         cout<<"the grade is good "<<endl;
-        }
-        else if (score>=50 && score<65){
-            cout<<"the grade is pass "<<endl;
-        }
-        else{
-            cout<<"he is a failure and he should go fuck himself"<<endl;
-        }
+    else if(score>=65 && score<75){
+     cout<<"the grade is good "<<endl;
+    }
+    else if (score>=50 && score<65){
+        cout<<"the grade is pass "<<endl;
+    }
+    else{
+        cout<<"he is a failure and he should go fuck himself"<<endl;
+    }
         return 0;
 }
